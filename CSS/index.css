@@ -8,7 +8,7 @@
     color: white;
     font-family: sans-serif;
 }
-body {
+body{
     background:
             radial-gradient(circle at 0% 0%, #5bcffa, transparent 30%),
             radial-gradient(circle at 80% 90%, #f5abb9, transparent 80%);
