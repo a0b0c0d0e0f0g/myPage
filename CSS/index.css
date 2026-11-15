@@ -8,10 +8,7 @@
     color: white;
     font-family: sans-serif;
 }
-.background{
-    margin: 0px;
-    height: 100%;
-    width: 100%;
+body {
     background:
             radial-gradient(circle at 0% 0%, #5bcffa, transparent 30%),
             radial-gradient(circle at 80% 90%, #f5abb9, transparent 80%);
@@ -20,6 +17,9 @@
     position: absolute;
     top: 4%;
     right: 4%;
+}
+.title{
+    flex-basis: 100%;
 }
 .cards{
     margin: 5%;
