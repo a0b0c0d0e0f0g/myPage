@@ -1,0 +1,37 @@
+.miao{
+    color: lightblue;
+}
+.head{
+    height: 250px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+.background{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background:
+            radial-gradient(circle at 0% 0%, #5bcffa, transparent 30%),
+            radial-gradient(circle at 80% 90%, #f5abb9, transparent 80%);
+}
+.themeBtn{
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+.cards{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+}
+.card{
+    width: 240px;
+    padding: 8px 32px;
+    border-radius: 24px;
+    background:#fff3;
+    backdrop-filter: blur(20px);
+    border: 1px solid #fff7;
+}
